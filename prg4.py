@@ -9,7 +9,7 @@ driver=webdriver.Chrome(service=serv_obj)
 driver.get("https://itera-qa.azurewebsites.net/home/automation")
 driver.maximize_window()
 
-# specific checkbox
+# specific checkboxes
 
 #driver.find_element(By.XPATH,"//input[@id='monday']").click()
 
@@ -54,4 +54,4 @@ for i in check:
 #     if i.is_selected():
 #         i.click();
 
-time.sleep(3)
+time.sleep(4)
