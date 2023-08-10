@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-ser_obj=Service("C:\Drivers\chromedriver_win32\chromedriver.exe")
-driver=webdriver.Chrome(service=ser_obj)
+serv_obj=Service("C:\Drivers\chromedriver_win32\chromedriver.exe")
+driver=webdriver.Chrome(service=serv_obj)
 driver.get("https://itera-qa.azurewebsites.net/home/automation")
 driver.maximize_window()
 
